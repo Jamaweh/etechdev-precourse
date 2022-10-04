@@ -15,7 +15,7 @@
         
         <i/>This text is in italics</>
 
-        <form> #to create a form. must have action="" method="POST" to hide it or "GET" to expose it 
+        <form action="" method="POST" to hide it or "GET" to expose it 
             <label>First Name:</label>
             <input type="text"/>
 
@@ -26,9 +26,27 @@
 
             <input type="submit"/>
         </form>
+        <hr>
 
-            <h1>Contact Us</h1>
-        <form>
+        <h1>Contact Us</h1>
+        <form action="" method="POST">
+            <label>Phone:</label>
+            <input type="number"/> required
+            <br>
+            <label>Email</label>
+            <input type="text"/>
+            <input type="Submit"/>
+
+            <br>
+            <label>Upload file here</label>
+            <input type="file" accept="image/*|audio/*|video/*"/>
+            <input type="Submit"/>
+        </form>
+
+
+         
+
+        
             
         </form>
 
